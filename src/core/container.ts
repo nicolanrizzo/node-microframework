@@ -39,4 +39,10 @@ export class Container {
     static setApplicationInstance(container) {
         this.applicationContainer = container;
     }
+
+    static debugContainer() {
+        console.log("Services\n\n" + Object.keys(this.services));
+        console.log("Models\n\n" + Object.keys(this.models));
+        console.log("Parameters\n\n" + Object.keys(this.parameters));
+    }
 }

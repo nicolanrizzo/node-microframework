@@ -29,6 +29,11 @@ var Container = (function () {
     Container.setApplicationInstance = function (container) {
         this.applicationContainer = container;
     };
+    Container.debugContainer = function () {
+        console.log("Services\n\n" + Object.keys(this.services));
+        console.log("Models\n\n" + Object.keys(this.models));
+        console.log("Parameters\n\n" + Object.keys(this.parameters));
+    };
     Container.models = {};
     Container.services = {};
     Container.parameters = {};

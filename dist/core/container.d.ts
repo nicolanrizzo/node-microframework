@@ -12,4 +12,5 @@ export declare class Container {
     static getParameter(name: any): any;
     static getApplicationInstance(): any;
     static setApplicationInstance(container: any): void;
+    static debugContainer(): void;
 }

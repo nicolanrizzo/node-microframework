@@ -1,5 +1,8 @@
 import { Container } from '../core/container';
 
+Container.debugContainer();
+// let router = Container.getApplicationInstance().get('router');
+
 let router = Container.get('router');
 
 export function Get(...getArgs) {

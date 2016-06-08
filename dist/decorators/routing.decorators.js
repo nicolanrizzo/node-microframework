@@ -1,5 +1,7 @@
 "use strict";
 var container_1 = require('../core/container');
+container_1.Container.debugContainer();
+// let router = Container.getApplicationInstance().get('router');
 var router = container_1.Container.get('router');
 function Get() {
     var getArgs = [];
