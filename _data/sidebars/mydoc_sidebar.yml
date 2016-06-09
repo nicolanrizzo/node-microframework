@@ -60,6 +60,10 @@ entries:
       url: /mydoc_sidebar_navigation/
       output: web, pdf
 
+    - title: How to test your application
+      url: /how_to_test_your_application
+      output: web, pdf
+
   - title: API docs
     output: web, pdf
 
@@ -141,5 +145,9 @@ entries:
         output: web, pdf
 
       - title: Ping module
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Socket.io
         url: /mydoc_adding_tooltips/
         output: web, pdf
