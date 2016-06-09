@@ -1,6 +1,6 @@
 permalink: /:year/:month/:day/:title/
 # this sets the style for permalinks. The date formatting (/:year/:month/:day/) will only apply to blog posts, while the pages will just show the title.
-# url: http://idratherbewriting.com
+url: nicolanrizzo.github.io
 # where you plan to publish your site
 baseurl: "/node-microframework"
 # any subdirectory that appears after the domain where you're publishing your site
@@ -12,8 +12,6 @@ site_title: BAP node microframework
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 company_name: BAP
 # this appears in the footer
-# github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 # disqus_shortname: idrbwjekyll
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 host: 127.0.0.1
