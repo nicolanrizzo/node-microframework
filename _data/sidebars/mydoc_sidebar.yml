@@ -1,0 +1,133 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: BAP node microframework
+  version: 0.x
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage/
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage/
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Get started
+      url: /
+      type: homepage
+      output: web, pdf
+
+    - title: Installation
+      url: /installation
+      output: web, pdf
+
+  - title: Cookbooks
+    output: web, pdf
+
+    folderitems:
+    - title: How to create an external module
+      url: /how_to_create_an_external_module
+      output: web, pdf
+
+    - title: How to create a plugin
+      url: /mydoc_sidebar_navigation/
+      output: web, pdf
+
+    - title: How to secure your application
+      url: /mydoc_sidebar_navigation/
+      output: web, pdf
+
+  - title: API docs
+    output: web, pdf
+
+    folderitems:
+    - title: ParamConverter
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: EventListener
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: QueryParam
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: RequestParam
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Security
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Routings
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Module
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Logger
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: EventSubscriber
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: BaseController
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Container
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: Application
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+    - title: KernelInterface
+      url: /mydoc_adding_tooltips/
+      output: web, pdf
+
+  - title: Plugins and modules
+    output: web, pdf
+
+    folderitems:
+      - title: Mongoose
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Sequelize
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Cors
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Passport
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Oauth
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
+
+      - title: Ping module
+        url: /mydoc_adding_tooltips/
+        output: web, pdf
