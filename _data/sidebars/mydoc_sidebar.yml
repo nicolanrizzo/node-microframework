@@ -40,6 +40,18 @@ entries:
       url: /tutorial-standard-edition-features
       output: web, pdf
 
+    - title: Tutorial 2 - Dependency installation and initial configuration
+      url: /tutorial-dependency-installation
+      output: web, pdf
+
+    - title: Tutorial 3 - Import an external module, the Ping module
+      url: /tutorial-import-external-module
+      output: web, pdf
+
+    - title: Tutorial 4 - Create your first module, the Hello module
+      url: /tutorial-create-hello-module
+      output: web, pdf
+
   - title: Cookbooks
     output: web, pdf
 
