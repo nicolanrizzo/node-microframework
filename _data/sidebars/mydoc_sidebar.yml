@@ -28,14 +28,26 @@ entries:
       type: homepage
       output: web, pdf
 
-    - title: Installation
-      url: /installation
+    - title: Installation of the standard edition
+      url: /installation-standard-edition
+      output: web, pdf
+
+  - title: Tutorial
+    output: web, pdf
+    folderitems:
+
+    - title: Tutorial 1 - Standard edition features
+      url: /tutorial-standard-edition-features
       output: web, pdf
 
   - title: Cookbooks
     output: web, pdf
 
     folderitems:
+    - title: How to use eventListeners
+      url: /how_to_use_event_listeners
+      output: web, pdf
+
     - title: How to create an external module
       url: /how_to_create_an_external_module
       output: web, pdf
